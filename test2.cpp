@@ -25,7 +25,7 @@ int Rectangle::getWidth(){
 void Rectangle::print(){
     std::cout << m_name <<"'s height = ";
     std::cout << m_height << "cm\n";
-    std::cout <<m_name <<"'s width = ";
+    std::cout << m_name <<"'s width = ";
     std::cout << m_width << "cm\n";
 }
 void Rectangle::draw(){
