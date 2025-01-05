@@ -27,7 +27,7 @@ Rectangle::Rectangle(int num){
     m_width = 10;
     m_name = "square";
     m_num = num;
-    std::cout << m_num << "has been declared\n";
+    std::cout << m_num << " has been declared\n";
 }
 void Rectangle::setHeight(int height){
     m_height = height;
